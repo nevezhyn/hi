@@ -1,5 +1,6 @@
 # Site settings
-baseurl = "nevezhyn.github.io/hi/"
+# baseurl = "nevezhyn.github.io/hi/"
+baseurl = ""
 languageCode = "en-us"
 title = "Agency"
 theme = "hugo-agency-theme"
