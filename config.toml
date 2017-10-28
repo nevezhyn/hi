@@ -2,7 +2,7 @@
 # baseurl = "nevezhyn.github.io/hi/"
 baseurl = ""
 languageCode = "en-us"
-title = "Agency"
+title = "Roman Nevezhyn"
 theme = "hugo-agency-theme"
 
 # Enter your tracking code to enable Google Analytics
@@ -18,8 +18,8 @@ googleAnalytics = ""
 
   # To provide some metadata for search engines feel free to add a few
   # information about you and your website.
-  name = "Your name"
-  description = "Your description"
+  name = "Software developer personal web site. Roman Nevezhyn."
+  description = "Roman Nevezhyn. Roman Nieviezhyn"
 
   # Link custom assets relative to /static
   custom_css = []
@@ -46,14 +46,14 @@ googleAnalytics = ""
 
   # Navigation
   [params.navigation]
-    brand = "The Agency"
+    brand = "Roman"
     # Optional logo as brand stored in img/
     #logo = "logo.svg"
-    services = "Services"
-    portfolio = "Portfolio"
-    about = "About"
-    team = "Team"
-    contact = "Contact"
+    # services = "Services"
+    about = "my path"
+    portfolio = "art"
+    # team = "Team"
+    # contact = "Contact"
 
     # Add custom links. Those can be pre- and postpended to the default menu above.
     # Use the weight attribute to order your custom links. Uncomment the example
@@ -67,23 +67,23 @@ googleAnalytics = ""
 
     # postpended links
     [[menu.postpend]]
-      url = "http://gohugo.io"
+      url = "nevezhyn.com/cv.pdf"
       name = "External link"
-      weight = 10
+      weight = 20
 
 
   # Hero section
   [params.hero]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
-    title = "Welcome To Our Studio!"
-    subtitle = "It's nice to meet you"
-    buttonText = "Tell me more"
+    title = "Hi! I am"
+    subtitle = "Roman</br>Nevezhyn"
+    buttonText = "social links"
 
 
   # Services section
   [params.services]
-    enable = true
+    enable = false
     title = "Services"
     subtitle = "Lorem ipsum dolor sit amet consectetur."
 
@@ -161,7 +161,7 @@ googleAnalytics = ""
 
   # Team section
   [params.team]
-    enable = true
+    enable = false
     # Possibility to center items
     #center = true
     title = "Our amazing team"
@@ -213,7 +213,7 @@ She worked at Pied Piper for years until they went belly up."""
 
   # Client section
     [params.clients_list]
-      enable = true
+      enable = false
       # Possibility to center items
       #center = true
       # Optional client title specifying the involvement
@@ -240,7 +240,7 @@ She worked at Pied Piper for years until they went belly up."""
 
   # Contact section
   [params.contact]
-    enable = true
+    enable = false
     title = "Contact us"
     subtitle  = "Lorem ipsum dolor sit amet consectetur."
     buttonText = "Send message"
@@ -263,7 +263,7 @@ She worked at Pied Piper for years until they went belly up."""
     # add some custom JS script to finish the implementation.
     # postURL = "https://example.com/mailout/"
 
-    email = "your@email.com"
+    email = "hi-d31aed7e@nevezhyn.com"
 
     # Success and error message overwrite for async contact form
     #thanks = "Thank you for awesomely contacting us."
@@ -300,22 +300,34 @@ She worked at Pied Piper for years until they went belly up."""
     enable = true
     copyright = "Published under the Apache License 2.0."
 
-    [[params.footer.social]]
-      icon = "fa-twitter"
-      link = "#"
+    # [[params.footer.social]]
+    #   icon = "fa-twitter"
+    #   link = "#"
+
+    # [[params.footer.social]]
+    #   icon = "fa-facebook"
+    #   link = "#"
+
+    # [[params.footer.social]]
+    #   icon = "fa-linkedin"
+    #   link = "#"
 
     [[params.footer.social]]
       icon = "fa-facebook"
-      link = "#"
+      link = "https://www.facebook.com/nevezhyn"
 
     [[params.footer.social]]
       icon = "fa-linkedin"
-      link = "#"
+      link = "https://www.linkedin.com/in/nevezhyn"
 
-    [[params.footer.quicklinks]]
-      text = "Privacy Policy"
-      link = "#"
+    [[params.footer.social]]
+      icon = "fa-envelope"
+      link = "mailto:hi-d31aed7e@nevezhyn.com"
 
-    [[params.footer.quicklinks]]
-      text = "Terms of Use"
-      link = "#"
+    # [[params.footer.quicklinks]]
+    #   text = "Privacy Policy"
+    #   link = "#"
+
+    # [[params.footer.quicklinks]]
+    #   text = "Terms of Use"
+    #   link = "#"

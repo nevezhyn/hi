@@ -284,7 +284,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 header {
-    text-align: center;
+    text-align: left;
     color: #fff;
     background-attachment: scroll;
     background-image: url(../img/header-bg.jpg);
@@ -813,6 +813,8 @@ section#contact .text-success {
 
 footer {
     padding: 25px 0;
+    margin-top: 100px;
+    margin-bottom: 100px;
     text-align: center;
 }
 
@@ -837,15 +839,15 @@ ul.social-buttons {
 }
 
 ul.social-buttons li a {
-    display: block;
-    width: 40px;
-    height: 40px;
+    display: inline-block;
+    width: 80px;
+    height: 80px;
     border-radius: 100%;
-    font-size: 20px;
-    line-height: 40px;
+    font-size: 40px;
+    line-height: 80px;
     outline: 0;
     color: #fff;
-    background-color: #222;
+    background-color: RoyalBlue;
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s;

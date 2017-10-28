@@ -11,13 +11,14 @@
       {{ partial "services.html" . }}
     {{ end }}
 
+    {{ if .Site.Params.about.enable }}
+      {{ partial "about.html" . }}
+    {{ end }}
+
     {{ if .Site.Params.portfolio.enable }}
       {{ partial "portfolio.html" . }}
     {{ end }}
 
-    {{ if .Site.Params.about.enable }}
-      {{ partial "about.html" . }}
-    {{ end }}
 
     {{ if .Site.Params.team.enable }}
       {{ partial "team.html" . }}
