@@ -46,12 +46,14 @@ googleAnalytics = ""
 
   # Navigation
   [params.navigation]
-    brand = "Roman"
+    brand = "Hi! I'm Roman"
     # Optional logo as brand stored in img/
     #logo = "logo.svg"
     # services = "Services"
-    about = "my path"
+    home = "▲ top"
+    about = "my story"
     portfolio = "art"
+    socials = "contact me"
     # team = "Team"
     # contact = "Contact"
 
@@ -68,7 +70,7 @@ googleAnalytics = ""
     # postpended links
     [[menu.postpend]]
       url = "nevezhyn.com/cv.pdf"
-      name = "External link"
+      name = "pdf"
       weight = 20
 
 
@@ -77,7 +79,7 @@ googleAnalytics = ""
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
     title = "Hi! I am"
-    subtitle = "Roman</br>Nevezhyn"
+    subtitle = "Roman"
     buttonText = "social links"
 
 
@@ -114,50 +116,85 @@ googleAnalytics = ""
     # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
-    title = "Portfolio"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    title = "art"
+    subtitle = "Art is a diverse range of human activities in creating visual, auditory or performing artifacts, expressing the author’s imaginative or technical skill, intended to be appreciated for their beauty or emotional power …"
 
     [params.portfolio.modal]
       client = "Client"
       date = "Date"
       category = "Category"
-      buttonText = "Close project"
-
+      buttonText = "close story"
 
     # About section
   [params.about]
     enable = true
-    title = "About"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
-    endpoint = "Be part<br>of our<br>story!"
+    title = "my story"
+    subtitle = ""
+    endpoint = "<br>other stuff"
 
     # The events will be listed from the top to the bottom.
     # All images are stored under 'static/img/about'.
     # Replace them with your own.
+
+
     [[params.about.events]]
-      img = "1.jpg"
-      date = "2009-2011"
-      title = "Our Humble Beginnings"
+      img = "wargaming.jpg"
+      date = "since march 2017"
+      title = "wargaming.net"
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
 
     [[params.about.events]]
-      img = "2.jpg"
-      date = "March 2011"
-      title = "An Agency is Born"
+      img = "skein.jpg"
+      date = "2016 - 2017"
+      title = "Skein Group, Ltd"
+      description = """<strong>COOLS.COM Team:</strong> Functional microservices implementation.\
+                        In-house ORM development, maintenance and refactoring.\
+                        System performance testing and tuning.\
+                        Continous Deployment pipelines design and implementation.\
+                        <br><strong>Environment:</strong> Amazon EC2 & S3, Python 3.5, RethinkDB, JMeter, Jenkins, Ansible, bash
+                        """
+
+    [[params.about.events]]
+      img = "worldapp.jpg"
+      date = "2015 - 2016"
+      title = "WorldAPP, Inc"
+      description = """<strong>Core Infrastructure Team:</strong> Implementing high load RESTful microservices.\
+                        Swagger (OPEN API) integration initiative.\
+                        Load testing and performance tuning. Automated functional tests.
+                        <br><strong>Environment:</strong> aiohttp, Swagger 2.0, docker, pytest, Apache JMeter, JIRA
+                        <br>
+                        <br><strong>Custom Development Team:</strong> Automated testing of Java Spring RESTful applications.\
+                        Quality assurance activities planning and management (risk analysis, test plans development and approval, test reporting, QA tools and DOCs development, QA team management).\
+                        <br><strong>Environment:</strong> Flask RESTful, aiohttp, pytest, unittest, Selenium WebDriver, JIRA
+                        """
+
+    [[params.about.events]]
+      img = "kpi_bw.jpg"
+      date = "2014 - 2016"
+      title = "Igor Sikorsky Kyiv Polytechnic Institute"
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
 
     [[params.about.events]]
-      img = "3.jpg"
-      date = "December 2012"
-      title = "Our Humble Beginnings"
+      img = "dentsply.jpg"
+      date = "2015"
+      title = "Dentsply Implants"
+      description = """<strong>Implants Library Team:</strong> XML datasets processing and validation in Python.\
+                        Static files processing and analysis in Python. Automated testing in Python Robot Framework.\
+                        General testing activities (tests development, approval and execution, test reporting).\
+                        <br><strong>Environment:</strong> MS Team Foundation Server, Robot Framework, Python 2.7.9 & Python 3.4
+                        """
+
+    [[params.about.events]]
+      img = "jobs.jpg"
+      date = "2005 - 2014"
+      title = "Jobs "
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
 
     [[params.about.events]]
-      img = "4.jpg"
-      date = "July 2014"
-      title = "Phase Two Expansion"
+      img = "kneu.jpg"
+      date = "2003 - 2008"
+      title = "Kyiv National Economic University"
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-
 
   # Team section
   [params.team]
@@ -298,6 +335,8 @@ She worked at Pied Piper for years until they went belly up."""
   # Footer section
   [params.footer]
     enable = true
+    title = "contact me"
+    subtitle = "hallo"
     copyright = "Published under the Apache License 2.0."
 
     # [[params.footer.social]]

@@ -34,22 +34,24 @@
             <a href="{{ .URL }}">{{ .Name | markdownify }}</a>
           </li>
         {{ end }}
-
+        <li>
+          <a class="page-scroll" href="{{ .Site.BaseURL }}#page-top">{{ with .Site.Params.navigation.home }}{{ . }}{{ end }}</a>
+        </li>
         {{ if .Site.Params.services.enable }}
           <li>
             <a class="page-scroll" href="{{ .Site.BaseURL }}#services">{{ with .Site.Params.navigation.services }}{{ . }}{{ end }}</a>
           </li>
         {{ end }}
 
-        {{ if .Site.Params.portfolio.enable }}
-          <li>
-            <a class="page-scroll" href="{{ .Site.BaseURL }}#portfolio">{{ with .Site.Params.navigation.portfolio }}{{ . }}{{ end }}</a>
-          </li>
-        {{ end }}
-
         {{ if .Site.Params.about.enable }}
           <li>
             <a class="page-scroll" href="{{ .Site.BaseURL }}#about">{{ with .Site.Params.navigation.about }}{{ . }}{{ end }}</a>
+          </li>
+        {{ end }}
+
+        {{ if .Site.Params.portfolio.enable }}
+          <li>
+            <a class="page-scroll" href="{{ .Site.BaseURL }}#portfolio">{{ with .Site.Params.navigation.portfolio }}{{ . }}{{ end }}</a>
           </li>
         {{ end }}
 
@@ -64,6 +66,13 @@
             <a class="page-scroll" href="{{ .Site.BaseURL }}#contact">{{ with .Site.Params.navigation.contact }}{{ . }}{{ end }}</a>
           </li>
         {{ end }}
+
+        {{ if .Site.Params.footer.enable }}
+          <li>
+            <a class="page-scroll" href="{{ .Site.BaseURL }}#socials">{{ with .Site.Params.navigation.socials }}{{ . }}{{ end }}</a>
+          </li>
+        {{ end }}
+
 
         {{ range .Site.Menus.postpend }}
           <li>

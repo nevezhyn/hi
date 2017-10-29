@@ -1,13 +1,12 @@
 {{ "<!-- Footer section -->" | safeHTML }}
 <footer>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-4">
-        <span class="copyright">{{ with .Site.Params.footer.copyright }}{{ . | markdownify }}{{ end }}</span>
-      </div>
-      <div class="col-md-4">
+  <section id="socials">
+    <div class="container">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">{{ with .Site.Params.footer.title }}{{ . | markdownify }}{{ end }}</h2>
+        <h3 class="section-subheading text-muted">{{ with .Site.Params.footer.subtitle }}{{ . | markdownify }}{{ end }}</h2>
         <ul class="list-inline social-buttons">
-
+          
           {{ range .Site.Params.footer.social }}
             <li><a href="{{ .link }}"><i class="fa {{ .icon }}"></i></a></li>
           {{ end }}
@@ -24,5 +23,5 @@
         </ul>
       </div>
     </div>
-  </div>
+  </section>
 </footer>
