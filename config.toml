@@ -1,3 +1,4 @@
+publishDir = "docs"
 # Site settings
 # baseurl = "nevezhyn.github.io/hi/"
 baseurl = ""
