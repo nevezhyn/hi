@@ -4,7 +4,17 @@ subtitle: Lorem ipsum dolor sit amet consectetur.
 date: 2014-07-09
 img: mandelbrot.png
 preview: mandelbrot-preview.png
-client: Start Bootstrap
-clientLink: "#"
-category: ""
-description: Start Bootstrap's Agency theme is based on Golden, a free PSD website template built by [Mathavan Jaya](//www.behance.net/MathavanJaya). Golden is a modern and clean one page web template that was made exclusively for Best PSD Freebies. This template has a great portfolio, timeline, and meet your team sections that can be easily modified to fit your needs. <br><br>You can download the PSD template in this portfolio sample item at [FreebiesXpress.com](//freebiesxpress.com/gallery/golden-free-one-page-web-template/).
+client: Wikipedia
+clientLink: "//en.wikipedia.org/wiki/Fractal_art"
+category: "Painting"
+description: >
+  This visualization of a Mandelbrot set was created by Me :) using an example 
+  [code snippet](//github.com/adonovan/gopl.io/blob/master/ch3/mandelbrot/main.go) 
+  (with minor changes) introduced in the book called "The Go Programming Language" 
+  by A. A. Donovan and B. W. Kernighan.  
+  <br>Julia set consists of values such that an arbitrarily small perturbation can cause drastic 
+  changes in the sequence of iterated function values. Thus the behavior of the function on 
+  the Julia set its behavior is 'chaotic'.
+  <br>Even thought Gaston Julia described the iteration of a rational function in 1925, 
+  "true" graphs of such functions were plotted by Benoit Mandelbrot using a computer in 1970s.
+  A legendary Mandelbrot set visualization is actually a special case of the Julia set.

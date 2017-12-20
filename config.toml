@@ -18,8 +18,8 @@ googleAnalytics = ""
 
   # To provide some metadata for search engines feel free to add a few
   # information about you and your website.
-  name = "Software developer personal web site. Roman Nevezhyn."
-  description = "Roman Nevezhyn. Roman Nieviezhyn"
+  name = "Hi my name is Roman and I'm a software developer"
+  description = "Roman Nevezhyn. Roman Nieviezhyn. Python developer. Software developer. Kiev. Kyiv. Ukraine."
 
   # Link custom assets relative to /static
   custom_css = []
@@ -51,7 +51,7 @@ googleAnalytics = ""
     #logo = "logo.svg"
     # services = "Services"
     home = "▲ top"
-    about = "my story"
+    about = "what i've done"
     portfolio = "art"
     socials = "contact me"
     # team = "Team"
@@ -69,8 +69,8 @@ googleAnalytics = ""
 
     # postpended links
     [[menu.postpend]]
-      url = "nevezhyn.com/cv.pdf"
-      name = "pdf"
+      url = "//cv.pdf"
+      name = "pdf cv"
       weight = 20
 
 
@@ -80,7 +80,7 @@ googleAnalytics = ""
     # the 'static/img' folder.
     title = "Hi! I am"
     subtitle = "Roman"
-    buttonText = "social links"
+    buttonText = "contact me"
 
 
   # Services section
@@ -117,20 +117,25 @@ googleAnalytics = ""
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
     title = "art"
-    subtitle = "Art is a diverse range of human activities in creating visual, auditory or performing artifacts, expressing the author’s imaginative or technical skill, intended to be appreciated for their beauty or emotional power …"
+    subtitle = """Art is a diverse range of human activities in creating visual, \
+                  auditory or performing artifacts, expressing the author’s imaginative or \
+                  technical skill, intended to be appreciated for their beauty or emotional power …\
+                  <br><br>All tools used to create following art bacame reality because of \
+                  information technology breakthrough.
+                  """
 
     [params.portfolio.modal]
-      client = "Client"
+      client = "Read more"
       date = "Date"
-      category = "Category"
-      buttonText = "close story"
+      category = "Mode of expression"
+      buttonText = "close"
 
     # About section
   [params.about]
     enable = true
-    title = "my story"
+    title = "Here's what I've done so far..."
     subtitle = ""
-    endpoint = "<br>other stuff"
+    endpoint = "<br>early life"
 
     # The events will be listed from the top to the bottom.
     # All images are stored under 'static/img/about'.
@@ -139,9 +144,13 @@ googleAnalytics = ""
 
     [[params.about.events]]
       img = "wargaming.jpg"
-      date = "since march 2017"
+      date = "2017"
       title = "wargaming.net"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      description = """<strong>World of Warplanes Team:</strong> \
+                        I design and implement systems that aggregate, analyze and visualize \
+                        performance of an MMO game. \
+                        <br><strong>Environment:</strong> Python 2.7, Twisted, SciPy, NumPy, Pandas, MySQL/SQLAlchemy, Jenkins.
+                        """
 
     [[params.about.events]]
       img = "skein.jpg"
@@ -158,8 +167,8 @@ googleAnalytics = ""
       img = "worldapp.jpg"
       date = "2015 - 2016"
       title = "WorldAPP, Inc"
-      description = """<strong>Core Infrastructure Team:</strong> Implementing high load RESTful microservices.\
-                        Swagger (OPEN API) integration initiative.\
+      description = """<strong>Core Infrastructure Team:</strong> Implementing high load RESTful microservices. \
+                        Swagger (OPEN API) integration initiative. \
                         Load testing and performance tuning. Automated functional tests.
                         <br><strong>Environment:</strong> aiohttp, Swagger 2.0, docker, pytest, Apache JMeter, JIRA
                         <br>
@@ -170,9 +179,12 @@ googleAnalytics = ""
 
     [[params.about.events]]
       img = "kpi_bw.jpg"
-      date = "2014 - 2016"
-      title = "Igor Sikorsky Kyiv Polytechnic Institute"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      date = "class of 2016"
+      title = "Igor Sikorsky Kyiv Polytechnic Institute<br>B.S. in Computer Science"
+      description = """In Department of the System Design I've studied engineering activities in artificial environment \
+                        design and creation: mathematic modeling, data and knowledge bases, computer networks, \
+                        expert and decision making systems etc.
+                    """
 
     [[params.about.events]]
       img = "dentsply.jpg"
@@ -187,14 +199,19 @@ googleAnalytics = ""
     [[params.about.events]]
       img = "jobs.jpg"
       date = "2005 - 2014"
-      title = "Jobs "
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      title = "Techincal Manager"
+      description = """For about eight years I've been worked as a techincal manager in construcion and \
+                       manufacturing industries.
+                       """
 
     [[params.about.events]]
       img = "kneu.jpg"
-      date = "2003 - 2008"
-      title = "Kyiv National Economic University"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      date = "class of 2008"
+      title = "Kyiv National Economic University<br>B.S. in Economics"
+      description = """In Economics and Management Department I've studied economic theory, \
+                        foundations of the economic science, macroeconomics, microeconomics, \
+                        history of economy and economic teachings etc.
+                        """
 
   # Team section
   [params.team]
@@ -336,7 +353,10 @@ She worked at Pied Piper for years until they went belly up."""
   [params.footer]
     enable = true
     title = "contact me"
-    subtitle = "hallo"
+    subtitle = """I'm a Kyiv resident opened for new contacts.
+                  Let's get in touch!
+                  <br>LinkedIn messages work best.
+                  """
     copyright = "Published under the Apache License 2.0."
 
     # [[params.footer.social]]

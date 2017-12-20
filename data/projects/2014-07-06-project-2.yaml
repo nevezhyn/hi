@@ -4,7 +4,14 @@ subtitle: ""
 date: 2014-07-06
 img: aiart.png
 preview: aiart-preview.png
-client: Start Bootstrap
-clientLink: "#"
-category: ""
-description: "[Startup Framework](//designmodo.com/startup/?u=787) is a website builder for professionals. Startup Framework contains components and complex blocks (PSD+HTML Bootstrap themes and templates) which can easily be integrated into almost any design. All of these components are made in the same style, and can easily be integrated into projects, allowing you to create hundreds of solutions for your future projects. <br><br>You can preview Startup Framework [here](//designmodo.com/startup/?u=787)."
+client: Daily Mail
+clientLink: "//www.dailymail.co.uk/sciencetech/article-3130654/From-pig-snail-lives-cloud-dumbells-human-arms-Google-reveals-bizarre-images-created-artificial-intelligence-software-learns-recognise-world-it.html"
+category: "Painting"
+description: >
+  The images were created by feeding a picture into the neural network, and asking emphasise feature 
+   it recognised - in this case, animals. Google team trains an artificial neural network by showing 
+   it millions of training examples and gradually adjusting the network parameters until it gives the 
+   classifications the team want.
+   <br>The researchers also asked the system to analyse Edvard Munch's The Scream - which was turned
+   into a portrait of a dog.
+   <br>The team has even given the images a name - <strong>Inceptionism<strong>.

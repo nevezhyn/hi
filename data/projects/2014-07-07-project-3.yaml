@@ -4,7 +4,11 @@ subtitle: ""
 date: 2014-07-07
 img: printed.png
 preview: printed-preview.png
-client: Start Bootstrap
-clientLink: "#"
-category: ""
-description: Treehouse is a free PSD web template built by [Mathavan Jaya](//www.behance.net/MathavanJaya). This is bright and spacious design perfect for people or startup companies looking to showcase their apps or other projects. <br><br>You can download the PSD template in this portfolio sample item at [FreebiesXpress.com](freebiesxpress.com/gallery/treehouse-free-psd-web-template/).
+client: Wikipedia
+clientLink: "//en.wikipedia.org/wiki/3D_printing"
+category: "Sculpture"
+description: >
+  3D printing is a process in which material is joined or solidified under computer control 
+  to create an object, with material being added together (such as liquid molecules or powder 
+  grains being fused together). Objects can be of almost any shape or geometry and typically 
+  are produced using digital model data from a 3D model file created by artist.
