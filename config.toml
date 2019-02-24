@@ -142,13 +142,24 @@ googleAnalytics = ""
     # All images are stored under 'static/img/about'.
     # Replace them with your own.
 
+    [[params.about.events]]
+      img = "smashdocs.jpg"
+      date = "2018"
+      title = "SMARTWORK SOLUTIONS GmbH"
+      description = """<strong>SMASHDOCs Team:</strong> \
+                        I lead a Kyiv team of the web-based word processing application. \
+                        <br>I implement new functionality, perform performance testing and optimization activities, \
+                        conduct code refactoring and lead a monolith to service based architecture transition. \
+                        <br>As a team lead I perform code reviews, new team members onboarding etc.
+                        <br><strong>Environment:</strong> Python 3.6, asyncio, MongoDB, redis, minio, XML/XSLT.
+                        """
 
     [[params.about.events]]
       img = "wargaming.jpg"
-      date = "2017"
+      date = "2017 - 2018"
       title = "wargaming.net"
       description = """<strong>World of Warplanes Team:</strong> \
-                        I design and implement systems that aggregate, analyze and visualize \
+                        I designed and implemented systems that aggregate, analyze and visualize \
                         performance of an MMO game. \
                         <br><strong>Environment:</strong> Python 2.7, Twisted, SciPy, NumPy, Pandas, MySQL/SQLAlchemy, Jenkins.
                         """
